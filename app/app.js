@@ -3,7 +3,7 @@
 
     var angularStep2App = angular.module("angularStep2App", []);
 
-    angularStep2App.controller("angularStep2Controller", ["$scope", "$http",
+    angularStep2App.controller("angularStep2Controller", ["$scope",
         function($scope) {
             $scope.firstNumber = 1;
             $scope.secondNumber = 1;
