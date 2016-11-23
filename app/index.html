@@ -1,0 +1,38 @@
+﻿<!doctype public html>
+<html ng-app="angularStep2App">
+<head>
+	<meta charset="utf-8">
+	<title>A Node starter app</title>
+	<script src="scripts/angular.min.js"></script>
+	<script src="scripts/app.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body ng-controller="angularStep2Controller">
+	<div class="container">
+		<h4>Let's do some math.</h4>
+		<div class="row">
+			<div class="col-md-2">
+				<label for="firstNumber">First Number:</label>
+			</div>
+			<div class="col-md-2">
+				<input type="text" ng-model="firstNumber" id="firstNumber" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<label for="secondNumber">Second Number:</label>
+			</div>
+			<div class="col-md-2">
+				<input type="text" ng-model="secondNumber" id="secondNumber" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" >
+				<code ng-show="isValid()">
+					{{firstNumber}} + {{secondNumber}} = {{thirdNumber()}}
+				</code>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
