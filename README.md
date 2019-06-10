@@ -1,6 +1,6 @@
 # angular-starter
 
-This is an Angular starter app that allows serving static content with the http-server npm package and demonstrates basic functionality of Angular. It simply demonstrates the need for the 'ng-app' attribute and how to bind HTML expressions inside double curly braces {{}}. Later I'll demonstrate how to bind to data using the 'ng-model' attribute.
+This is an Angular starter app that allows serving static content with the http-server npm package and demonstrates basic functionality of Angular. It simply demonstrates the need for the 'ng-app' attribute and how to bind HTML expressions inside double curly braces {{ }}. Later I'll demonstrate how to bind to data using the 'ng-model' attribute.
 
 This project also uses Gulp which is a task/build runner. You can do things with it such as uglify/obfuscate and minify js and css files and concatenate multiple js and/or css files to single files. It can also "watch" your source css and js files in realtime and as they change they are processed through the steps described previously. The details are beyond the scope of this project but uglified files are harder to decompile for security reasons and minified files run much faster in the browser.
 
